@@ -111,9 +111,39 @@ h5{
 }
 
 
-.project-title {
-    position: relative;
-    width: 100%;
+.project-title h3{
+    color: #5E89B5;
+    font-size: 2.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.6em;
+}
+
+.project-title h3:hover{
+    text-decoration: underline;
+}
+
+.button{
+    display: block;
+    background-color: #5E89B5;
+    color: white;
+    
+    padding: 0.6em 0;
+    border-radius: 0.6em;
+    margin-top: 3em;
+    
+    transition: 0.2s;
+}
+
+.project-title a{
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: white;
+    border: solid 2px #5E89B5;
+    color: #5E89B5;
+    
+    padding: 0.5em 0;
 }
 
 
@@ -160,4 +190,14 @@ footer p{
 
 footer{
     padding-bottom: 1em;
+}
+
+
+@media (max-width: 768px){
+    
+    h2{
+        padding-top: 0.5em;
+        font-size: 2em;
+    }
+   
 }
