@@ -10,9 +10,17 @@ main{
 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-style: italic;
-    font-size: 9em;
+    font-style: normal;
+    font-size: 6em;
     color: white;
+}
+
+h5{
+    color: white;
+    font-size: 1.38em;
+    font-weight: 400;
+    padding-left: 0.3em;
+    margin-top: -0.5em;
 }
 
 .first-line{    /*--- H1 and social links spacing -----*/
@@ -67,54 +75,7 @@ h1{
     text-shadow: 0px 5px 10px rgba(94, 137, 181, 0.25);
 }
 
-/*--- \/\/ Spacing between social links -----*/
-ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
 
-}
-
-.social-links{
-    padding-left: 0;
-}
-
-.social-links > a{
-    flex: 0 1 9.6px; /*  No stretching: */
-    margin-top: 6em;
-    margin-left: 2.8em;
-}
-/* End */ 
-
-.social-links svg{           /*--- Sets color on social link icons -----*/
-    fill: #5E89B5;
-    
-    transition: 0.2s;
-}
-
-.social-links li{                        /*--- Social links style -----*/
-    display: inline-block;
-    padding: 0.6em;
-    background-color: white;
-    border-radius: 0.6em;
-    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.25); /*--- \/ drop-shadow -----*/
-    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.25);
-    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
-    
-    transition: 0.2s;
-}
-
-.social-links li:hover{
-    background-color: #5E89B5;
-    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.5); /*--- \/ drop-shadow -----*/
-    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.5);
-    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
-}
-
-.social-links li:hover > svg{
-    fill: white;
-    
-}
 
 @media (max-width: 768px){
     h1{
@@ -155,106 +116,8 @@ ul{
     width: 100%;
 }
 
-.project-title img{
-    vertical-align: super;
-}
-
-.project-title h6{
-    position: absolute;
-    bottom: 1em;
-    width: 100%;
-    
-    padding-top: 4em;
-    padding-bottom: 1.5em;
-    padding-left: 1em;
-    
-    margin-bottom: 0.6em;
-    border-radius: 0 0 1em 1em;
-
-    background: linear-gradient(0deg, rgba(0,0,0,0.30) 0%, rgba(0,0,0,0) 100%);
-    color: rgba(255, 255, 255, 0);
-    
-    display: flex;
-    justify-content: space-between;
-    
-    transition: .3s;
-}
-
-.project-title span{
-    padding-right: 1em;
-    font-weight: 400;
-    color: white;
-}
-
-.project-title:hover > h6{
-    color: rgba(255, 255, 255, 1);
-    background: linear-gradient(0deg, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0) 100%);
-    
-}
-
-
-
-
 
 /*---------------- Chat -----------------*/
-h3{
-    font-weight: 500;
-    font-size: 2.25em;
-    color: #5E89B5;
-}
-
-.chat{
-    padding-top: 2em;
-}
-
-.chat h5{
-    font-weight: 400;
-    margin-bottom: 1em;
-}
-
-.pdg-right{
-    padding-right: 0.5em;
-}
-
-.pdg-left{
-    padding-left: 0.5em;
-}
-
-.message{
-    margin-bottom: 1em;
-}
-
-.message a{
-    background-color: #5E89B5;
-    border-radius: 0.6em;
-    color: white;
-    fill: white;
-    
-    display: inline-block;    
-    font-size: 0.9em;
-    width: 100%;
-    text-decoration: none;
-    
-    transition: 0.2s;
-}
-
-.message a:hover{
-    background-color: white;
-    border: 2px solid #5E89B5;
-    color: #5E89B5
-}
-
-.message a:hover > svg{
-    fill: #5E89B5;
-    margin: 0.56em;
-    margin-left: 0;
-}
-
-.message a svg{
-    margin: 0.7em;
-    margin-left: 0;
-}
-
 
 
 /*---------------- Footer -----------------*/
@@ -273,7 +136,7 @@ h3{
 h2{
     font-size: 3em;
     font-weight: 600;
-    font-style: italic;
+    font-style: normal;
     color: white;
     
     margin-bottom: 1em;
@@ -293,4 +156,8 @@ footer p{
 .heart:hover{
     width: 2em;
     fill: #d61a1a;
+}
+
+footer{
+    padding-bottom: 1em;
 }
