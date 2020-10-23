@@ -107,15 +107,13 @@ h5{
 /*---------------- Projects -----------------*/
 .banner-home{
     border-radius: 1em;
-    margin: 1em 0;   
+  
 }
 
 
 .project-title h3{
     color: #5E89B5;
-    font-size: 2.5em;
-    margin-top: 0.3em;
-    margin-bottom: 0.6em;
+    font-size: 2.3em;
 }
 
 .project-title h3:hover{
@@ -129,7 +127,7 @@ h5{
     
     padding: 0.6em 0;
     border-radius: 0.6em;
-    margin-top: 3em;
+    margin-top: 1em;
     
     transition: 0.2s;
 }
@@ -146,7 +144,14 @@ h5{
     padding: 0.5em 0;
 }
 
+.margin-small{
+    margin: 1em 0;
+}
 
+.margin-bottom{
+    margin-bottom: 3em;
+    margin-top: 1.5em;
+}
 /*---------------- Chat -----------------*/
 
 
@@ -170,6 +175,10 @@ h2{
     color: white;
     
     margin-bottom: 1em;
+}
+
+.blue{
+    color: #5E89B5;
 }
 
 footer p{
