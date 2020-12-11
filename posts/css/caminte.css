@@ -73,6 +73,11 @@ main{
     background-repeat: repeat;
 }
 
+.padronagem-footer{
+    background-image: url("https://feliperpv.me/dsg1411/posts/img/caminte-padronagem-footer.png");
+    background-repeat: repeat;
+}
+
 
 .header-logo{
 
@@ -106,4 +111,9 @@ p{
 .img-centro{
     display: block;
     margin: auto;
+}
+
+h2{
+    font-size: 2em;
+    padding-top: 2em;
 }
