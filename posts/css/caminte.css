@@ -1,0 +1,78 @@
+/*-- Reaproveitamento do portfolio, talvez algumas coisas não estejam sendo usadas \/ \/ --*/
+
+.first-line{    /*--- H1 and social links spacing -----*/
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.social-links svg{           /*--- Sets color on social link icons -----*/
+    fill: #3E9278;
+    
+    transition: 0.2s;
+}
+
+.social-links li{                        /*--- Social links style -----*/
+    display: inline-block;
+    padding: 0.6em;
+    background-color: white;
+    border-radius: 0.6em;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.25); /*--- \/ drop-shadow -----*/
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    
+    transition: 0.2s;
+}
+
+.social-links li:hover{
+    background-color: #3E9278;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.5); /*--- \/ drop-shadow -----*/
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.social-links li:hover > svg{
+    fill: white;
+    
+}
+
+.social-links > a{
+    margin-top: 0;
+}
+
+.first-line{
+    padding-bottom: 0;
+}
+
+.home-text{
+    padding-left: 1em;
+    padding-right: 0.5em;
+    vertical-align: middle;
+    
+    font-weight: 500;
+    color: #3E9278;
+    transition: .2s;
+}
+
+.social-links li:hover > .home-text{
+    color: white;
+}
+
+/*-- FIM DO REAPROVEITAMENTO ^^^^ --*/
+
+.bg-blue-color{
+    background-color: #3E9278;
+}
+
+
+.padronagem{
+    background-image: url("caminte-padronagem.jpg");
+    background-repeat: repeat;
+}
+
+.header-logo{
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 400px;
+}
