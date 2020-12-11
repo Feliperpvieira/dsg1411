@@ -6,7 +6,7 @@
 }
 
 .social-links svg{           /*--- Sets color on social link icons -----*/
-    fill: #3E9278;
+    fill: #74BAA0;
     
     transition: 0.2s;
 }
@@ -24,7 +24,7 @@
 }
 
 .social-links li:hover{
-    background-color: #3E9278;
+    background-color: #74BAA0;
     -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.5); /*--- \/ drop-shadow -----*/
     -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
@@ -49,7 +49,7 @@
     vertical-align: middle;
     
     font-weight: 500;
-    color: #3E9278;
+    color: #74BAA0;
     transition: .2s;
 }
 
@@ -60,7 +60,7 @@
 /*-- FIM DO REAPROVEITAMENTO ^^^^ --*/
 
 .bg-blue-color{
-    background-color: #3E9278;
+    background-color: #74BAA0;
 }
 
 
@@ -75,4 +75,6 @@
     padding-top: 50px;
     padding-bottom: 100px;
     width: 400px;
+    
+    margin-bottom: 50px;
 }
