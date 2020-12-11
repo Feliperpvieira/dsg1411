@@ -102,3 +102,8 @@ p{
 .legenda{
     font-size: 16px;
 }
+
+.img-centro{
+    display: block;
+    margin: auto;
+}
