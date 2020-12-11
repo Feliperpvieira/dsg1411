@@ -210,3 +210,11 @@ footer{
     }
    
 }
+
+/*---------------- Caminte -----------------*/
+
+@media (min-width: 768px){
+    .titulo-linha-unica{
+        padding-top: 10px;
+    }
+}
