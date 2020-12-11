@@ -81,15 +81,19 @@
     margin-bottom: 50px;
 }
 
+p{
+    font-size: 22px;
+}
+
 .h5-texto{
     color: #3E9278;
     padding-left: 0;
     font-weight: 500;
     font-size: 28px;
-    margin-top: 2em;
+    margin-top: 3em;
     margin-bottom: 1em;
 }
 
-p{
-    font-size: 22px;
+.legenda{
+    font-size: 16px;
 }
