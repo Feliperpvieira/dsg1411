@@ -60,21 +60,23 @@
 /*-- FIM DO REAPROVEITAMENTO ^^^^ --*/
 
 .bg-blue-color{
-    background-color: #74BAA0;
+    background-color: #216651;
 }
 
 
 .padronagem{
-    background-image: url("https://feliperpv.me/dsg1411/posts/img/caminte-padronagem.jpg");
+    background-image: url("https://feliperpv.me/dsg1411/posts/img/caminte-padronagem.png");
     background-repeat: repeat;
 }
 
+
 .header-logo{
+
     display: block;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 600px;
     
     margin-bottom: 50px;
 }
